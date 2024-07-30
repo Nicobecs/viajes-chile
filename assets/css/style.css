@@ -1,0 +1,72 @@
+/*RESETEO DE ESTILOS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ESTILOS GENERALES*/
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #000;
+    color: white; 
+}
+
+.margen-horizontal {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*ESTILOS DE LA BARRA DE NAVEGACIÓN*/
+
+.logo-nav {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed; /* Fija la navbar en la parte superior */
+    z-index: 10; /* navbar encima del carousel */
+    width: -webkit-fill-available;
+  
+}
+
+.navbar-brand{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;   
+}
+
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active{
+    color: blue;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 1rem; 
+
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active{
+    color: blue;
+}
+
+
+/* Estilos del Carousel */
+.carousel {
+    margin: 0!important; /* Elimina los márgenes para el carousel */
+    padding: 0; /* Elimina el padding para el carousel */
+    height: 80vh; /* Altura del viewport */
+    width: 100vw;  /* Ancho del viewport */
+}
+
+.carousel-inner, .carousel-item, .carousel-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}
