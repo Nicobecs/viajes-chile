@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,49 +13,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- INTEGRACION DE ICONOS FONTAWESOME-->
     <script src="https://kit.fontawesome.com/032dcb9e1a.js" crossorigin="anonymous"></script>
-     <!--FAVICON-->
-     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!--FAVICON-->
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 
     <!-- INTEGRACION DE ESTILOS CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
     <!--HEADER NAVBAR-->
     <header>
-    <nav class="navbar navbar-expand-lg margen-horizontal">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo" class="logo-nav">Viajes Chile</a>
-          <button class="navbar-toggler"       type="button" data-bs-theme="dark" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Quienes somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Destacados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header> 
+        <nav class="navbar navbar-expand-lg margen-horizontal">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="logo" class="logo-nav">Viajes
+                    Chile</a>
+                <button class="navbar-toggler" type="button" data-bs-theme="dark" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Destacados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <!--CARRUSEL HERO--> 
-    <section>
+    <!--CARRUSEL HERO-->
+    <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -67,16 +75,83 @@
                     <img class="img-fluid d-block w-100" src="assets/img/carousel3.jpg" alt="Third slide">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <!--QUIENES SOMOS-->
+    <section class="container-nosotros">
+        <h2 class="titulos">¿QUIÉNES SOMOS?</h2> 
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                        <div class="icon-nosotros my-1">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <p class="texto-espaciado"> 
+                          Lorem ipsum dolor sit amet, consecteur adipiscing elit.
+                          Donec mattis ante nulla. Donec in neque consectetur.
+                          ultrices justo eu. hendrerit lectus. Nullam fermentum
+                          turpis et dolor euismod consequat sed sed ante.
+                          Curabitur vel lacinia nisi. Sed mollis condimentum
+                          rhoncus. Proin sed diam eu risus auctor aliquet Sed nisi
+                          lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+                          cursus lacus ex, id interdum nibh tristique ac. Maecenas
+                          in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
+                          et malesuada fames ac ante ipsum primis in faucibus.
+                          Mauris ultricies sem eu massa pellentesque. id interdum
+                          nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <p class="texto-espaciado"> 
+                          Lorem ipsum dolor sit amet, consecteur adipiscing elit.
+                          Donec mattis ante nulla. Donec in neque consectetur.
+                          ultrices justo eu. hendrerit lectus. Nullam fermentum
+                          turpis et dolor euismod consequat sed sed ante.
+                          Curabitur vel lacinia nisi. Sed mollis condimentum
+                          rhoncus. Proin sed diam eu risus auctor aliquet Sed nisi
+                          lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+                          cursus lacus ex, id interdum nibh tristique ac. Maecenas
+                          in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
+                          et malesuada fames ac ante ipsum primis in faucibus.
+                          Mauris ultricies sem eu massa pellentesque. id interdum
+                          nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                          <div class="icon-nosotros my-1">
+                            <i class="fa-solid fa-mountain"></i>
+                          </div>
+
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="icon-nosotros my-1">
+                            <i class="fa-solid fa-route"></i>                        
+                        </div>
+                        <p class="texto-espaciado"> 
+                          Lorem ipsum dolor sit amet, consecteur adipiscing elit.
+                          Donec mattis ante nulla. Donec in neque consectetur.
+                          ultrices justo eu. hendrerit lectus. Nullam fermentum
+                          turpis et dolor euismod consequat sed sed ante.
+                          Curabitur vel lacinia nisi. Sed mollis condimentum
+                          rhoncus. Proin sed diam eu risus auctor aliquet Sed nisi
+                          lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+                          cursus lacus ex, id interdum nibh tristique ac. Maecenas
+                          in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
+                          et malesuada fames ac ante ipsum primis in faucibus.
+                          Mauris ultricies sem eu massa pellentesque. id interdum
+                          nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                    </div>
+            </div>
         </div>
     </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz4fnFO9gybBogGzOgC6Zp6qL/2Z9lf2eFalsYIHbium2P84+8uj1z6Ej8"
@@ -85,4 +160,5 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

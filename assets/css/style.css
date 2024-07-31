@@ -30,6 +30,7 @@ body {
     position: fixed; /* Fija la navbar en la parte superior */
     z-index: 10; /* navbar encima del carousel */
     width: -webkit-fill-available;
+
   
 }
 
@@ -53,6 +54,16 @@ body {
     color: blue;
 }
 
+.navbar-toggler:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #fff;
+  }
+  
+.navbar-toggler:hover {
+color: #fff;
+box-shadow: 0 0 5px #fff;
+text-shadow: 0 0 5px #fff;
+}
 
 /* Estilos del Carousel */
 .carousel {
@@ -69,4 +80,44 @@ body {
 
 .carousel-item img {
     object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}
+/* Estilos Section Nosotros */
+.titulos {
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.icon-nosotros {
+    background-color: #0dcaf0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.texto-espaciado {
+    font-weight: lighter;
+}
+
+.container-nosotros {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+/* Breakpoint para tablet (768px a 1024px) */
+@media (max-width: 1024px) {
+  
+}
+
+/* Breakpoint para móvil (menor a 768px) */
+@media (max-width: 768px) {
+    
+}
+
+/* Breakpoint para móvil pequeño (menor o igual a 375px) */
+@media (max-width: 375px) {
+   
 }
