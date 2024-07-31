@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* otra forma de usar smooth scroll
+html {
+    scroll-behavior: smooth;
+}*/
 
 /*ESTILOS GENERALES*/
 body {
