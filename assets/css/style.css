@@ -30,8 +30,11 @@ body {
     position: fixed; /* Fija la navbar en la parte superior */
     z-index: 10; /* navbar encima del carousel */
     width: -webkit-fill-available;
-
   
+}
+
+.navbar:hover {
+    background-color: #0000009d;
 }
 
 .navbar-brand{
@@ -138,8 +141,25 @@ text-shadow: 0 0 5px #fff;
     background-color: #0dcaf0;
     color:#fff;
 }
-/* Estilos Footer*/
 
+.btn-color:hover {
+    background-color: #045e70;
+}
+/* Estilos Footer*/
+.footer {
+    background-color: #0dcaf0;
+    text-align: center;
+    padding: 1rem; 
+}
+.footer a{
+    color: #fff;
+    text-decoration: none; 
+}
+
+.icon-footer {
+    display: flex;
+    justify-content: center;
+}
 
 /* Breakpoint para tablet (768px a 1024px) */
 @media (max-width: 1024px) {
@@ -161,6 +181,9 @@ text-shadow: 0 0 5px #fff;
     {
         display: block;
     }
+    .btn-color {
+        width: 100%;
+    }
 }
 
 /* Breakpoint para móvil pequeño (menor o igual a 375px) */
@@ -171,5 +194,8 @@ text-shadow: 0 0 5px #fff;
     .icon-montain-movil
     {
         display: block;
+    }
+    .btn-color {
+        width: 100%;
     }
 }
