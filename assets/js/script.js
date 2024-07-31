@@ -12,4 +12,11 @@ $(document).ready(function(){
             });
         }
     });
+
+    $("#enviarForm").tooltip();
+
+    $("#enviarForm").click(function () {
+        alert("Formulario enviado con éxito.");
+    });
+    
 });
