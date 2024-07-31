@@ -101,8 +101,8 @@ text-shadow: 0 0 5px #fff;
 }
 
 .container-secciones {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .icon-montain-movil
 {
@@ -121,8 +121,7 @@ text-shadow: 0 0 5px #fff;
     width: 20rem;
     margin: auto;
     background-color: #0dcaf0;
-    color: #fff;
-}
+    color: #fff;}
 
 .card-title, .card-text{
     font-weight: lighter;
@@ -130,7 +129,18 @@ text-shadow: 0 0 5px #fff;
 .card-img-top {
     height: 10rem;
     object-fit: cover;
+    border: 0.2px solid #fff;
+
 }
+/* Estilos Section Contacto */
+
+.btn-color {
+    background-color: #0dcaf0;
+    color:#fff;
+}
+/* Estilos Footer*/
+
+
 /* Breakpoint para tablet (768px a 1024px) */
 @media (max-width: 1024px) {
     .icon-montain-desktop {
