@@ -100,24 +100,66 @@ text-shadow: 0 0 5px #fff;
     font-weight: lighter;
 }
 
-.container-nosotros {
+.container-secciones {
     margin-left: 5%;
     margin-right: 5%;
 }
+.icon-montain-movil
+{
+    display: none;
+}
 
+.icon-montain-desktop {
+    display: block;
+}
+/* Estilos Section Destacados */
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 20rem;
+    margin: auto;
+    background-color: #0dcaf0;
+    color: #fff;
+}
 
-
+.card-title, .card-text{
+    font-weight: lighter;
+}
+.card-img-top {
+    height: 10rem;
+    object-fit: cover;
+}
 /* Breakpoint para tablet (768px a 1024px) */
 @media (max-width: 1024px) {
-  
+    .icon-montain-desktop {
+        display: none;
+    }
+    .icon-montain-movil
+    {
+        display: block;
+    }
 }
 
 /* Breakpoint para móvil (menor a 768px) */
 @media (max-width: 768px) {
-    
+    .icon-montain-desktop {
+        display: none;
+    }
+    .icon-montain-movil
+    {
+        display: block;
+    }
 }
 
 /* Breakpoint para móvil pequeño (menor o igual a 375px) */
 @media (max-width: 375px) {
-   
+    .icon-montain-desktop {
+        display: none;
+    }
+    .icon-montain-movil
+    {
+        display: block;
+    }
 }
